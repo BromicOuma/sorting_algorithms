@@ -31,4 +31,6 @@ void cocktail_sort_list(listint_t **list);
 void swap_nodes(listint_t **list, listint_t *node);
 listint_t *get_dlistint_lelem(listint_t *h);
 void counting_sort(int *array, size_t size);
+void radix_sort(int *array, size_t size);
+int getCantRep(int num);
 #endif
